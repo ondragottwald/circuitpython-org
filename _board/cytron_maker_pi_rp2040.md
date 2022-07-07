@@ -30,16 +30,16 @@ CircuitPython is preloaded on the Maker Pi RP2040 and it runs a simple demo prog
 - 264 KB internal RAM
 - 2 MB of Flash memory
 - Robot controller board
-  - 4x Servo motors (`GPIO12`. `GPIO13`, `GPIO14`, `GPIO15`)
-  - 2x DC motors with quick test buttons (Dual-channel H-bridge)
+  - 4x Servo motors (`GPIO12`, `GPIO13`, `GPIO14`, `GPIO15`)
+  - 2x DC motors with quick test buttons (Dual-channel H-bridge, `GPIO8`, `GPIO9`, `GPIO10`, `GPIO11`)
 - Versatile power circuit
   - 7 Automatic power selection: USB 5 V, LiPo (1-cell) or Vin (3.6-6 V)
   - Built-in 1-cell LiPo/Li-Ion charger (over-charged & over-discharged protection)
   - Power on/off switch
-- 13x Status indicator LEDs for GPIO pins
-- 1x Piezo buzzer with mute switch
-- 2x Push button
-- 22x RGB LED (Neopixel)
+- 13x Status indicator LEDs for GPIO pins (`GPIO0`, `GPIO1`, `GPIO2`, `GPIO3`, `GPIO4`, `GPIO5`, `GPIO6`, `GPIO7`, `GPIO16`, `GPIO17`, `GPIO26`, `GPIO27`, `GPIO28`)
+- 1x Piezo buzzer with mute switch (`GPIO22`)
+- 2x Push button (`GPIO20`, `GPIO21`)
+- 2x RGB LED (Neopixel, `GPIO18`)
 - 7x Grove ports (flexible I/O options: digital, analog, I2C, SPI, UART)
 - Mouting holes
   - 4x 4.8 mm mounting hole (LEGO® pin compatible)
